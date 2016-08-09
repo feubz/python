@@ -1,3 +1,4 @@
+#!/usr/local/bin/python3
 from sys import argv
 from os.path import exists
 import subprocess
@@ -22,7 +23,7 @@ with open(outfile, 'r+') as out_file:
 	out_file.truncate()
 	out_file.write(in_data)
 	out_file.seek(0)
-	print(out_file.read())
+	print(out_file.read(),end="")
 
 
 
