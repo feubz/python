@@ -9,5 +9,5 @@ class fruit():
 
 
 
-	def print(self):
+	def displaytype(self):
 		print("Hey I'm a {} and my color is {} ".format(self.name,self.color))
